@@ -26,6 +26,5 @@ listView('test-view') {
     lastFailure()
     lastDuration()
     buildButton()
-    lastBuildConsole()
   }
 }
