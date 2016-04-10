@@ -34,4 +34,8 @@ listView('manual.view') {
     lastDuration()
     buildButton()
   }
+
+  jobs {
+    regex('manual-.*')
+  }
 }
