@@ -13,10 +13,8 @@ job('emtpy-job') {
   }
 }
 
-views {
-  listView('test-view') {
-    jobs {
-      regex('test-.*')
-    }
+listView('test-view') {
+  jobs {
+    regex('test-.*')
   }
 }
