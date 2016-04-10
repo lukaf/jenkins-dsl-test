@@ -23,3 +23,7 @@ listView('test-view') {
     buildButton()
   }
 }
+
+job('emtpy-job') {
+  description = "this should be deleted when removed"
+}
