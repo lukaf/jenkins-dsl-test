@@ -8,11 +8,6 @@ job('test-job') {
   }
 }
 
-job('emtpy-job') {
-  steps {
-  }
-}
-
 listView('test-view') {
   jobs {
     regex('test-.*')
