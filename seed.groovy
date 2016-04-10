@@ -23,3 +23,15 @@ listView('test-view') {
     buildButton()
   }
 }
+
+listView('manual.view') {
+  columns {
+    status()
+    weather()
+    name()
+    lastSuccess()
+    lastFailure()
+    lastDuration()
+    buildButton()
+  }
+}
