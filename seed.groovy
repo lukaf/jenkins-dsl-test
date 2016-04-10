@@ -17,4 +17,15 @@ listView('test-view') {
   jobs {
     regex('test-.*')
   }
+
+  columns {
+    status()
+    weather()
+    name()
+    lastSuccess()
+    lastFailure()
+    lastDuration()
+    buildButton()
+    lastBuildConsole()
+  }
 }
